@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/lyt_notif_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/notif_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="7dp"
+        android:minHeight="60dp"
+        android:minWidth="60dp"
+        android:padding="3dp"
+        android:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/notif_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/notif_image"
+        android:paddingTop="7dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/notif_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notif_title"
+        android:layout_toRightOf="@+id/notif_image"
+        android:paddingTop="7dp"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/notif_title"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/text_update"/>
+
+</RelativeLayout>

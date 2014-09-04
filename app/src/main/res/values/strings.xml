@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestApp</string>
+    <string name="text_update">Update</string>
+    <string name="text_download">Download</string>
+    <string name="text_update_available">Update available</string>
+    <string name="text_can_update">You can update file now</string>
+    <string name="text_file_download">File Download</string>
+    <string name="text_download_in_progress">Download in progress</string>
+    <string name="text_download_complete">Download complete</string>
+    <string name="text_file_was_downloaded">File was downloaded </string>
+    <string name="info_no_internet">No internet connection!</string>
+
+</resources>
